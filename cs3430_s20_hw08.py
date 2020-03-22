@@ -5,8 +5,8 @@
 # Thane Tyler
 # A01819635
 ########################################################
-
 import math
+
 from PIL import Image
 import numpy as np
 
@@ -22,8 +22,8 @@ def is_in_pil_range(pil_img, cr):
     """
     ncols, nrows = pil_img.size
     c, r = cr
-    #print('ncols={}; nrows={}'.format(ncols, nrows))
-    #print('c={}; r={}'.format(c, r))
+    print('ncols={}; nrows={}'.format(ncols, nrows))
+    print('c={}; r={}'.format(c, r))
     return c > 0 and c < ncols-1 and r > 0 and r < nrows-1
 
 def display_pil_img_row(pil_img, r):
@@ -56,13 +56,13 @@ def pil_pix_dxdy(pil_img, cr, default_delta):
     dy = default_delta.
     """
     assert is_in_pil_range(pil_img, cr)
-    if ( lumin(pil_img.getpixel((cr[0], cr[1] - 1))) != lumin(pil_img.getpixel((cr[0], cr[1] + 1))) ):
+    if lumin(pil_img.getpixel((cr[0], cr[1] - 1))) != lumin(pil_img.getpixel((cr[0], cr[1] + 1))):
         dy = ( lumin(pil_img.getpixel((cr[0], cr[1] - 1))) - lumin(pil_img.getpixel((cr[0], cr[1] + 1))) )
     else:
         dy = default_delta
 
-    if ( lumin(pil_img.getpixel((cr[0] + 1, cr[1]))) != lumin(pil_img.getpixel((cr[0] - 1, cr[1]))) ):
-        dx = (lumin(pil_img.getpixel((cr[0] + 1, cr[1]))) - lumin(pil_img.getpixel((cr[0] - 1, cr[1]))))
+    if lumin(pil_img.getpixel((cr[0] + 1, cr[1]))) != lumin(pil_img.getpixel((cr[0] - 1, cr[1]))):
+        dx = ( lumin(pil_img.getpixel((cr[0] + 1, cr[1]))) - lumin(pil_img.getpixel((cr[0] - 1, cr[1]))) )
     else:
         dx = default_delta
 
@@ -72,15 +72,16 @@ def grd_magn(dx, dy):
     """
     Gradient magnitude given dx and dy. Given by pil_pix_dxdy
     """
-    ## your code here
-    pass
+    return abs(np.sqrt( np.power(dx, 2) + np.power(dy, 2) ))
 
 def grd_deg_theta(dx, dy):
     """
     Gradient orientation (in degrees) given dx and dy.
     """
-    ## your code here
-    pass
+    if dx == 0:
+        dx = 1
+
+    return np.rad2deg(np.arctan(dy / dx))
 
 def depil(pil_img, default_delta=1.0, magn_thresh=20):
     """
@@ -95,14 +96,34 @@ def depil(pil_img, default_delta=1.0, magn_thresh=20):
     """
     output_img = Image.new('L', pil_img.size)
     num_cols, num_rows = pil_img.size
-    ## your code here
+    for col in range(1, num_cols - 1):
+        for row in range(1, num_rows - 1):
+            cr = (col, row)
+            dx, dy = pil_pix_dxdy(pil_img, cr, default_delta)
+            gradient_magnitude = grd_magn(dx, dy)
+            if gradient_magnitude >= magn_thresh:
+                output_img.putpixel( (col, row), 255)
+            else:
+                output_img.putpixel( (col, row), 0)
     return output_img
 
 ### ================ Problem 02 =================================
 
 def ht(pil_img, angle_step=1, pix_val_thresh=5):
-    ## your code here
-    pass
+
+    depil_ncols, depil_nrows = pil_img.size
+
+    rho_size = math.sqrt( math.pow(depil_ncols, 2) + math.pow(depil_nrows, 2) )
+    ht_table = np.zeros((360, int(rho_size)))
+
+    for col in range(depil_ncols):
+        for row in range(depil_nrows):
+            if pil_img.getpixel((col, row)) >= pix_val_thresh:
+                for theta in range(0, 360, angle_step):
+                    rho = int( col * math.cos(theta) + row * math.sin(theta) )
+                    ht_table[theta, rho] += 1
+
+    return ht_table
 
 def ht_find_lines(htb, spl=1):
     """
@@ -111,7 +132,18 @@ def ht_find_lines(htb, spl=1):
     - Each line is represented as a 3-tuple (rho, angle, spl), 
     where angle is given in degrees.
     """
-    ## your code here
-    pass
+    lines_detected = []
+    height, width = htb.shape
+    origin = (int(height/2), int(width/2))
+
+    for theta in range(height):
+        for rho in range(width):
+            if htb[theta][rho] >= spl:
+                if rho > origin[1]:
+                    lines_detected.append( (theta - origin[0], rho - origin[1], spl) )
+
+    lines_detected.sort(key=lambda x: x[1])
+
+    return lines_detected
 
 

@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fff9602-a947-42c9-9e22-d813eafa09a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cs3430_s20_hw08.py" beforeDir="false" afterPath="$PROJECT_DIR$/cs3430_s20_hw08.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cs3430_s20_hw08_uts.py" beforeDir="false" afterPath="$PROJECT_DIR$/cs3430_s20_hw08_uts.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,15 +12,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/CS3430Assign8$Unittests_for_cs3430_s20_hw08_uts_Assign08UnitTests_test_hw08_prob01_ut01.coverage" NAME="Unittests for cs3430_s20_hw08_uts.Assign08UnitTests.test_hw08_prob01_ut01 Coverage Results" MODIFIED="1584841353227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CS3430Assign8$Unittests_for_cs3430_s20_hw08_uts_Assign08UnitTests_test_hw08_prob02_ut01.coverage" NAME="Unittests for cs3430_s20_hw08_uts.Assign08UnitTests.test_hw08_prob02_ut01 Coverage Results" MODIFIED="1584854993075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CS3430Assign8$Unittests_for_cs3430_s20_hw08_uts_Assign08UnitTests_test_hw08_prob02_ut04.coverage" NAME="Unittests for cs3430_s20_hw08_uts.Assign08UnitTests.test_hw08_prob02_ut04 Coverage Results" MODIFIED="1584854906320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CS3430Assign8$Unittests_for_cs3430_s20_hw08_uts_Assign08UnitTests_test_hw08_prob02_ut02.coverage" NAME="Unittests for cs3430_s20_hw08_uts.Assign08UnitTests.test_hw08_prob02_ut02 Coverage Results" MODIFIED="1584853143674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CS3430Assign8$Unittests_for_cs3430_s20_hw08_uts_Assign08UnitTests_test_hw08_prob01_ut01.coverage" NAME="Unittests for cs3430_s20_hw08_uts.Assign08UnitTests.test_hw08_prob01_ut01 Coverage Results" MODIFIED="1584851594976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CS3430Assign8$Unittests_for_cs3430_s20_hw08_uts_Assign08UnitTests_test_hw08_prob02_ut06.coverage" NAME="Unittests for cs3430_s20_hw08_uts.Assign08UnitTests.test_hw08_prob02_ut06 Coverage Results" MODIFIED="1584854640649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CS3430Assign8$Unittests_for_cs3430_s20_hw08_uts_Assign08UnitTests.coverage" NAME="Unittests for cs3430_s20_hw08_uts.Assign08UnitTests Coverage Results" MODIFIED="1584846276415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CS3430Assign8$Unittests_for_cs3430_s20_hw08_uts_Assign08UnitTests_test_hw08_prob01_ut02.coverage" NAME="Unittests for cs3430_s20_hw08_uts.Assign08UnitTests.test_hw08_prob01_ut02 Coverage Results" MODIFIED="1584846199072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cs3430_s20_hw08_uts.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+            <state relative-caret-position="-384">
+              <caret line="99" column="21" selection-start-line="99" selection-start-column="21" selection-end-line="102" selection-end-column="31" />
               <folding>
                 <element signature="e#260#275#0" expanded="true" />
               </folding>
@@ -30,11 +37,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cs3430_s20_hw08.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="81" column="21" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
+            <state relative-caret-position="456">
+              <caret line="141" column="22" selection-start-line="141" selection-start-column="19" selection-end-line="141" selection-end-column="22" />
               <folding>
-                <element signature="e#184#195#0" expanded="true" />
+                <element signature="e#187#198#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/PIL/Image.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="523" selection-start-line="523" selection-end-line="523" />
             </state>
           </provider>
         </entry>
@@ -43,9 +59,12 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>depil</find>
       <find>lumin</find>
       <find>pil_img</find>
+      <find>find</find>
+      <find>eleph</find>
+      <find>depil</find>
+      <find>lunch</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -60,9 +79,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="1086" />
+    <option name="y" value="1050" />
     <option name="width" value="3840" />
-    <option name="height" value="1074" />
+    <option name="height" value="1110" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -76,6 +95,11 @@
             <path>
               <item name="CS3430Assign8" type="b2602c69:ProjectViewProjectNode" />
               <item name="CS3430Assign8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CS3430Assign8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS3430Assign8" type="462c0819:PsiDirectoryNode" />
+              <item name="imgs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -106,7 +130,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.Unittests for cs3430_s20_hw08_uts.Assign08UnitTests.test_hw08_prob02_ut01">
     <configuration name="Unittests for cs3430_s20_hw08_uts.Assign08UnitTests.test_hw08_prob01_ut01" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="CS3430Assign8" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -122,8 +146,72 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for cs3430_s20_hw08_uts.Assign08UnitTests.test_hw08_prob02_ut01" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="CS3430Assign8" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;cs3430_s20_hw08_uts.Assign08UnitTests.test_hw08_prob02_ut01&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for cs3430_s20_hw08_uts.Assign08UnitTests.test_hw08_prob02_ut02" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="CS3430Assign8" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;cs3430_s20_hw08_uts.Assign08UnitTests.test_hw08_prob02_ut02&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for cs3430_s20_hw08_uts.Assign08UnitTests.test_hw08_prob02_ut04" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="CS3430Assign8" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;cs3430_s20_hw08_uts.Assign08UnitTests.test_hw08_prob02_ut04&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for cs3430_s20_hw08_uts.Assign08UnitTests.test_hw08_prob02_ut06" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="CS3430Assign8" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;cs3430_s20_hw08_uts.Assign08UnitTests.test_hw08_prob02_ut06&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for cs3430_s20_hw08_uts.Assign08UnitTests.test_hw08_prob02_ut01" />
+        <item itemvalue="Python tests.Unittests for cs3430_s20_hw08_uts.Assign08UnitTests.test_hw08_prob02_ut04" />
+        <item itemvalue="Python tests.Unittests for cs3430_s20_hw08_uts.Assign08UnitTests.test_hw08_prob02_ut06" />
+        <item itemvalue="Python tests.Unittests for cs3430_s20_hw08_uts.Assign08UnitTests.test_hw08_prob02_ut02" />
         <item itemvalue="Python tests.Unittests for cs3430_s20_hw08_uts.Assign08UnitTests.test_hw08_prob01_ut01" />
       </list>
     </recent_temporary>
@@ -138,58 +226,285 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584839359966</updated>
-      <workItem from="1584839361201" duration="2926000" />
+      <workItem from="1584839361201" duration="15089000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_cs3430_s20_hw08_uts_Assign08UnitTests_test_hw08_prob01_ut01 - 2020.03.21 at 19h 40m 59s.xml">
-      <configuration name="Unittests for cs3430_s20_hw08_uts.Assign08UnitTests.test_hw08_prob01_ut01" configurationId="tests" />
+    <history-entry file="Unittests_for_cs3430_s20_hw08_uts_Assign08UnitTests_test_hw08_prob02_ut01 - 2020.03.21 at 22h 58m 01s.xml">
+      <configuration name="Unittests for cs3430_s20_hw08_uts.Assign08UnitTests.test_hw08_prob02_ut01" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_cs3430_s20_hw08_uts_Assign08UnitTests_test_hw08_prob01_ut01 - 2020.03.21 at 19h 41m 20s.xml">
-      <configuration name="Unittests for cs3430_s20_hw08_uts.Assign08UnitTests.test_hw08_prob01_ut01" configurationId="tests" />
+    <history-entry file="Unittests_for_cs3430_s20_hw08_uts_Assign08UnitTests_test_hw08_prob02_ut02 - 2020.03.21 at 22h 59m 12s.xml">
+      <configuration name="Unittests for cs3430_s20_hw08_uts.Assign08UnitTests.test_hw08_prob02_ut02" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_cs3430_s20_hw08_uts_Assign08UnitTests_test_hw08_prob01_ut01 - 2020.03.21 at 19h 42m 34s.xml">
-      <configuration name="Unittests for cs3430_s20_hw08_uts.Assign08UnitTests.test_hw08_prob01_ut01" configurationId="tests" />
+    <history-entry file="Unittests_for_cs3430_s20_hw08_uts_Assign08UnitTests_test_hw08_prob02_ut01 - 2020.03.21 at 23h 13m 23s.xml">
+      <configuration name="Unittests for cs3430_s20_hw08_uts.Assign08UnitTests.test_hw08_prob02_ut01" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_cs3430_s20_hw08_uts_Assign08UnitTests_test_hw08_prob02_ut01 - 2020.03.21 at 23h 14m 57s.xml">
+      <configuration name="Unittests for cs3430_s20_hw08_uts.Assign08UnitTests.test_hw08_prob02_ut01" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_cs3430_s20_hw08_uts_Assign08UnitTests_test_hw08_prob02_ut01 - 2020.03.21 at 23h 15m 12s.xml">
+      <configuration name="Unittests for cs3430_s20_hw08_uts.Assign08UnitTests.test_hw08_prob02_ut01" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_cs3430_s20_hw08_uts_Assign08UnitTests_test_hw08_prob02_ut01 - 2020.03.21 at 23h 23m 27s.xml">
+      <configuration name="Unittests for cs3430_s20_hw08_uts.Assign08UnitTests.test_hw08_prob02_ut01" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_cs3430_s20_hw08_uts_Assign08UnitTests_test_hw08_prob02_ut06 - 2020.03.21 at 23h 24m 22s.xml">
+      <configuration name="Unittests for cs3430_s20_hw08_uts.Assign08UnitTests.test_hw08_prob02_ut06" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_cs3430_s20_hw08_uts_Assign08UnitTests_test_hw08_prob02_ut04 - 2020.03.21 at 23h 25m 54s.xml">
+      <configuration name="Unittests for cs3430_s20_hw08_uts.Assign08UnitTests.test_hw08_prob02_ut04" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_cs3430_s20_hw08_uts_Assign08UnitTests_test_hw08_prob02_ut04 - 2020.03.21 at 23h 28m 47s.xml">
+      <configuration name="Unittests for cs3430_s20_hw08_uts.Assign08UnitTests.test_hw08_prob02_ut04" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_cs3430_s20_hw08_uts_Assign08UnitTests_test_hw08_prob02_ut01 - 2020.03.21 at 23h 30m 18s.xml">
+      <configuration name="Unittests for cs3430_s20_hw08_uts.Assign08UnitTests.test_hw08_prob02_ut01" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2926000" />
+    <option name="totallyTimeSpent" value="15089000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="1086" width="3840" height="1074" extended-state="0" />
+    <frame x="0" y="1050" width="3840" height="1110" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28014743" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3295099" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3295099" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39937434" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.28014743" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3295099" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Python Console" order="4" />
+      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.3295099" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.3286432" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.39899498" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="SciView" order="2" weight="0.33754608" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/cs3430_s20_hw08.py</url>
+          <line>125</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/cs3430_s20_hw08.py</url>
+          <line>142</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>int(dx)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>dx</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/my_out_imgs/EdgeImage_04_ed.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_out_imgs/hive02_ed.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file:///usr/local/Cellar/python/3.6.5_1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/unittest/suite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python/3.6.5_1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/unittest/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="175" selection-start-line="175" selection-end-line="175" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/teamcity/unittestpy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="306" selection-start-line="306" selection-end-line="306" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python/3.6.5_1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/unittest/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/_jb_unittest_runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python/3.6.5_1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="604" selection-start-line="604" selection-end-line="604" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_out_imgs/EdgeImage_01_ed.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_out_imgs/EdgeImage_02_ed.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_out_imgs/EdgeImage_06_ed.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_out_imgs/EdgeImage_07_ed.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgs/EdgeImage_06.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out_imgs/EdgeImage_05_ed.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out_imgs/EdgeImage_04_ed.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_out_imgs/road_03_ed.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out_imgs/road_02_ed.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out_imgs/hive02_ed.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgs/hive02.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out_imgs/EdgeImage_01_ed.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgs/EdgeImage_02.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out_imgs/EdgeImage_02_ed.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out_imgs/EdgeImage_03_ed.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out_imgs/EdgeImage_07_ed.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgs/hive01.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out_imgs/hive01_ed.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgs/hive03.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out_imgs/hive03_ed.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out_imgs/road_01_ed.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_out_imgs/elephant_ed.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_out_imgs/road_04_ed.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_out_imgs/road_02_ed.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgs/elephant.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgs/june.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgs/road_04.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgs/EdgeImage_03.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgs/EdgeImage_07.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgs/BirdOrnament.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgs/road_01.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgs/nt_01.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgs/lunch.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out_imgs/EdgeImage_06_ed.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out_imgs/sudoku_ed.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out_imgs/road_03_ed.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out_imgs/elephant_ed.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out_imgs/lunch_ed.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_out_imgs/lunch_ed.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/PIL/Image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="523" selection-start-line="523" selection-end-line="523" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgs/EdgeImage_01.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/cs3430_s20_hw08_uts.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        <state relative-caret-position="-384">
+          <caret line="99" column="21" selection-start-line="99" selection-start-column="21" selection-end-line="102" selection-end-column="31" />
           <folding>
             <element signature="e#260#275#0" expanded="true" />
           </folding>
@@ -198,10 +513,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cs3430_s20_hw08.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="81" column="21" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
+        <state relative-caret-position="456">
+          <caret line="141" column="22" selection-start-line="141" selection-start-column="19" selection-end-line="141" selection-end-column="22" />
           <folding>
-            <element signature="e#184#195#0" expanded="true" />
+            <element signature="e#187#198#0" expanded="true" />
           </folding>
         </state>
       </provider>
